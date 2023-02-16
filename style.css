@@ -1,0 +1,76 @@
+@media screen and (min-width:769px) {
+    .user-login-nav{
+        margin-right: 8rem
+    }
+
+}
+.card-imag-outer{
+    padding: 0!important;
+
+
+}
+.card-imag{
+    overflow: hidden!important;
+    z-index: -1;
+
+    overflow-y: hidden!important;
+
+}
+.card-img:hover{
+    transform: scale(1.1);
+}
+.card-img img{
+    z-index: -1;
+    transition: transform .7s ease;
+}
+ @media screen and (min-width:769px) { 
+    .footer-last-part{
+        padding-left: 15rem
+    }
+
+} 
+.detiled-footer{
+    margin-top: 2rem!important;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+  .last-footer{
+    background-color: #444;
+    height: 5rem;
+  }
+  #btnScrollToTop{
+    position: fixed;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: gray;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .fitst-nav li a:hover{
+   color: orangered!important;
+  }
